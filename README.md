@@ -28,11 +28,11 @@ Vishnu Prasanth A
 
 Team Lead / Automation & Reporting
 
-Member A
+Vivek Kumar
 
 Reconnaissance & SMB Enumeration
 
-Member B
+Ashik
 
 Exploitation & Vulnerability Analysis
 
@@ -72,19 +72,7 @@ nikto_report.txt
 
 smb_enum.txt
 
-📁 Repository Structure
 
-CyberSecurity-TeamG3-Project1/
-├── automated_scan.sh
-├── nmap_report.txt
-├── nikto_report.txt
-├── smb_enum.txt
-├── Cybersecurity_Project_Report.pdf
-├── /screenshots/
-│   ├── ping from kali to met.png
-│   ├── port analysis.png
-│   └── ...
-└── README.md
 
 🔍 Findings Summary
 
