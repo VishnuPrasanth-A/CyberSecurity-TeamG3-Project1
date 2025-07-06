@@ -1,3 +1,8 @@
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![Project Status](https://img.shields.io/badge/status-Completed-brightgreen)
+![OS](https://img.shields.io/badge/OS-Kali_Linux-red?logo=linux)
+![Tools](https://img.shields.io/badge/tools-Nmap|Nikto|Enum4linux-blue)
+![Report](https://img.shields.io/badge/report-PDF-ff69b4)
 # 🔐 CyberSecurity Team G-3 - Project 1
 
 ## 📝 Project Title  
