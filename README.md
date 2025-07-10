@@ -49,18 +49,30 @@ The objective is to identify misconfigurations and outdated services running on 
 
 ## 🚀 How to Run the Automation Script
 
-1. Place both VMs in the same **Host-Only Network**
-2. Boot **Metasploitable2** first, then **Kali Linux**
-3. On Kali, give the script execute permission:
+## 🚀 How to Run the Automation Script
 
+1. Place both VMs in the same **Host-Only Network**  
+2. Boot **Metasploitable2** first, then **Kali Linux**  
+3. Open a terminal in Kali and run the following:
 
+```bash
+# Clone the repository
+git clone https://github.com/VishnuPrasanth-A/CyberSecurity-TeamG3-Project1.git
+cd CyberSecurity-TeamG3-Project1
+
+# Install required tools
+sudo apt update
+sudo apt install -y nmap nikto enum4linux python3-pip
+
+# Install ReportLab (for PDF report generation)
+pip3 install reportlab
+
+# Give execution permission and run
 chmod +x automated_scan.sh
-Run the script:
-
-bash
-Copy
-Edit
 sudo ./automated_scan.sh <target-ip>
+
+```
+
 This will generate the following output files:
 
 nmap_report.txt
