@@ -49,8 +49,6 @@ The objective is to identify misconfigurations and outdated services running on 
 
 ## 🚀 How to Run the Automation Script
 
-## 🚀 How to Run the Automation Script
-
 1. Place both VMs in the same **Host-Only Network**  
 2. Boot **Metasploitable2** first, then **Kali Linux**  
 3. Open a terminal in Kali and run the following:
